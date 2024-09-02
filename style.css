@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 600px;
+    width: auto;
+    background-image: url("https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/d/dying-light-platinum-edition-switch/hero-def");
+    background-size: cover;
+}
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center ;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font: normal normal 0.9em arial;
+    margin: 5px;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 2s;
+    color: rgb(0, 0, 0);
+
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("https://store-images.s-microsoft.com/image/apps.17276.14532159016103478.99c9617a-9acd-41f4-843a-08c83d199add.97361df9-b06c-4a29-bac2-e625358362dd?mode=scale&q=90&h=1080&w=1920&background=%23FFFFFF");
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+div{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    background-color: rgb(247, 247, 247);
+}
+#image{
+    margin: 30px;
+    height: 300px;
+    width: 500px;
+
+}
+    
+.text{
+    padding: 10px;
+    height: 230px;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#project{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-image: url("https://static.wikia.nocookie.net/dyinglight/images/1/1c/Dying_Light_Tower.jpg/revision/latest?cb=20151224190446");
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 50px 0px 50px 0px ;
+    box-shadow: 0px 0px 50px white;
+}
+#project2{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-image: url("https://imgs.search.brave.com/VCWjS_fZ_0P9KK3xNXNY6FeELdXldjnn-4i09amqF3w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDY0MzY0/NzQuanBn");
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 50px 50px 50px 50px ;
+    box-shadow: 0px 0px 50px white;
+}
+#Kyle{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 75px;
+}
+
+#text2{
+    background-color: rgba(245, 245, 220, 0);
+}
+#text3{
+    font: normal bold 1rem Verdana;
+    color: orangered;
+}
+h1{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    font: normal bold 1rem Verdana;
+    color: rgb(0, 0, 0);
+}
+p{
+    font: normal bold 1rem Arial;
+    color: rgb(0, 0, 0);
+
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color:gray;
+}
+#footer{
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+}
